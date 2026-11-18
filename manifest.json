@@ -1,6 +1,7 @@
 {
   "name": "Your English Study Guide with Mr. Kenj",
   "short_name": "Mr. Kenj",
+  "description": "Lessons, word games, pronunciation practice and progress tracking for Levels A, B and C, with Mr. Kenj.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -20,9 +21,16 @@
       "purpose": "any"
     },
     {
+      "src": "icon-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
       "src": "icon.svg",
       "sizes": "any",
-      "type": "image/svg+xml"
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ]
 }

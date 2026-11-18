@@ -1,4 +1,8 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Your English Study Guide with Mr. Kenj</title>
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#18203d">
@@ -8,6 +12,7 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gabarito:wght@500;700;800&family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap">
+<style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style>
 <style>
 /* Layout: sticky app bar + tab strip, one content column (max 1080px); games take over the column like a full index card. */
 :root{
@@ -41,7 +46,7 @@ header.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background
 .logo .lb-dot{fill:var(--a)}
 .logo text{fill:var(--bg);font-family:var(--display);font-weight:800}
 .brand{min-width:0;flex:1}
-.brand h1{font-size:clamp(17px,2.4vw,22px);font-weight:800;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.brand h1{font-size:clamp(16px,2.4vw,22px);font-weight:800;line-height:1.15;overflow-wrap:anywhere}
 .brand p{margin:0;color:var(--muted);font-size:13px}
 .chips{display:flex;gap:6px;flex:none}
 .chip{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:999px;background:var(--sunk);font-size:13px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
@@ -168,9 +173,11 @@ th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06
 .chart text{fill:var(--muted);font-size:11px;font-family:var(--body)}
 .kenj-out{white-space:pre-wrap;background:var(--sunk);border-radius:12px;padding:12px;min-height:44px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
-@media (max-width:560px){.chips .chip.hide-sm{display:none}.stats b{font-size:22px}.word{grid-template-columns:auto minmax(0,1fr)}.word .lvl-act{grid-column:1/-1}}
+@media (max-width:560px){.chips .chip.hide-sm{display:none}.stats b{font-size:22px}.word{grid-template-columns:auto minmax(0,1fr)}.word .lvl-act{grid-column:1/-1}.bar-top{flex-wrap:wrap;align-items:flex-start}.brand{flex:1 1 150px;min-width:0}.brand h1{white-space:normal;overflow:visible;text-overflow:unset;font-size:16px}.chips{flex:0 0 auto;margin-left:auto}nav.tabs{display:flex;justify-content:space-between;gap:0;overflow:visible;flex-wrap:nowrap}nav.tabs a{padding:10px 4px;font-size:13px;line-height:1.2;flex:1 1 0;text-align:center;min-width:0;white-space:normal}}
 </style>
 
+</head>
+<body>
 <header class="bar">
   <div class="wrap">
     <div class="bar-top">
@@ -188,7 +195,7 @@ th{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06
 #A1|introducing yourself|am, is, are · greeting and saying goodbye
 name|what someone is called|My name is Steve.
 meet|see someone for the first time|Nice to meet you.
-from|showing where someone was born|I am from Texas.
+from|showing where someone comes from or lives|I am from Texas.
 live|have your home in a place|I live in New York.
 teacher|a person who teaches|He is an English teacher.
 goodbye|what you say when you leave|Goodbye, see you tomorrow.
@@ -292,7 +299,7 @@ historic|old and important|It's a historic city.
 across|on the other side|The park is across the street.
 #A16|transportation and vehicles|comparatives · buying tickets
 taxi|a car you pay to ride in|Let's take a taxi.
-faster|more fast|The train is faster than the bus.
+faster|at a higher speed than something else|The train is faster than the bus.
 cheaper|less expensive|The bus is cheaper than a taxi.
 single ticket|a ticket for one way|A single ticket to London, please.
 return ticket|a ticket there and back|I need a return ticket.
@@ -323,7 +330,7 @@ appointment|a set time to meet someone|I have a dentist appointment.
 available|free to do something|Are you available on Friday?
 busy|having a lot to do|I'm busy tomorrow.
 message|words you send to someone|Can I take a message?
-arrange|plan something|We are arranging a meeting.
+arrange|plan something|We will arrange a meeting.
 tomorrow|the day after today|I'm meeting Jane tomorrow.
 #A21|future plans|will and be going to
 going to|for a planned future action|I'm going to visit Paris.
@@ -352,7 +359,7 @@ were|past of are|They were happy.
 born|started life|I was born in 1995.
 childhood|the time when you were a child|I had a happy childhood.
 yesterday|the day before today|Where were you yesterday?
-ago|before now|I moved here two years ago.
+ago|before now, used with a past time|I moved here two years ago.
 #A25|a great or terrible holiday|past simple with irregular verbs
 went|past of go|We went to Spain.
 saw|past of see|I saw the sea.
@@ -391,7 +398,7 @@ don't|used for negative instructions|Don't eat too much sugar.
 #A30|countries and cultures|comparatives and superlatives
 culture|the way of life of a group of people|I love Japanese culture.
 the biggest|bigger than all the others|Russia is the biggest country.
-better|more good|This café is better than that one.
+better|of a higher quality; the comparative of good|This café is better than that one.
 the best|better than all the others|It's the best food in the world.
 tradition|a custom from the past|Tea is a British tradition.
 language|the words people speak|Spanish is a beautiful language.
@@ -414,7 +421,7 @@ habit|something you do regularly|Smoking is a bad habit.
 healthy|good for your body|Eat healthy food.
 get up|get out of bed|I get up early.
 schedule|a plan of times and activities|I have a busy schedule.
-had better|strong advice|You'd better go to bed.
+had better|strong advice|You had better go to bed.
 manage|deal with something successfully|How do you manage your time?
 #B4|special occasions|would for unreal situations
 anniversary|the date something happened in an earlier year|Today is our wedding anniversary.
@@ -425,7 +432,7 @@ would|for imaginary situations|I would buy a house if I were rich.
 engaged|having agreed to marry|They got engaged last year.
 #B5|appearances and personality|present perfect and past simple
 ever|at any time in your life|Have you ever been to Paris?
-already|before now|I have already eaten.
+already|sooner than expected, or before now|I have already eaten.
 yet|until now (questions and negatives)|Have you finished yet?
 reliable|can be trusted|He is a reliable friend.
 outgoing|friendly and social|She is very outgoing.
@@ -449,7 +456,7 @@ fluent|able to speak easily and well|She is fluent in English.
 accent|the way people pronounce words|He has a British accent.
 mistake|something that is wrong|Don't worry about mistakes.
 keep|continue doing something|Keep practising every day.
-improve|get better|I improve my English by reading.
+improve|get better by practising or studying|I improve my English by reading.
 complain|say you are unhappy about something|He keeps complaining about the noise.
 #B9|goals and purposes|clauses of purpose
 goal|something you want to achieve|My goal is to get a promotion.
@@ -467,13 +474,13 @@ reporter|a person who reports the news|The reporter asked many questions.
 journalist|a person who writes for news media|She is a journalist.
 #B11|past events and memories|present perfect continuous · used to
 used to|did in the past but not now|I used to play football.
-memory|something you remember|I have good memories of school.
+memory|something you remember|I have a good memory of school.
 since|from a point in time until now|I've lived here since 2010.
 for|during a period of time|I've been waiting for an hour.
 remember|keep something in your mind|I remember my first day at school.
 childhood|the time when you were a child|My childhood was happy.
 #B12|changes and improvements|present perfect and present perfect continuous
-improve|get better|My English has improved.
+improve|become better over time|My English has improved.
 achievement|something done successfully|Graduating was a big achievement.
 promotion|a better job in the same company|She got a promotion.
 recently|not long ago|I have recently started a new job.
@@ -502,10 +509,10 @@ contract|a legal agreement|We signed the contract.
 customer|a person who buys something|The customer is always right.
 #B16|choosing a career|preparing a resume
 career|the jobs you do in your working life|She has a career in medicine.
-resume|a document about your education and work|Send me your resume.
+resume|a document about your education and work, also called a CV|Send me your resume.
 qualification|a certificate or skill for a job|What are your qualifications?
 experience|knowledge from doing something|I have five years of experience.
-apply|ask formally for a job|I applied for the job.
+apply|ask formally for a job|I want to apply for the job.
 strength|a good quality|My strength is teamwork.
 #B17|business meetings|organising and meeting expressions
 agenda|a list of topics for a meeting|What's on the agenda?
@@ -527,7 +534,7 @@ follower|a person who follows you online|He has many followers.
 share|let others see something|Share this video with your friends.
 addicted|unable to stop doing something|Some teens are addicted to their phones.
 privacy|keeping personal things secret|Protect your privacy online.
-as far as I'm concerned|in my opinion|As far as I'm concerned, it's a waste of time.
+as far as I'm concerned|in my opinion, used to start a personal view|As far as I'm concerned, it's a waste of time.
 #B20|history|passive voice in the past
 discovery|finding something new|The discovery of penicillin changed medicine.
 war|fighting between countries|The war ended in 1945.
@@ -581,7 +588,7 @@ frightening|making you afraid|It was a frightening night.
 accident|something bad that happens by chance|There was a car accident.
 injured|hurt|Two people were injured.
 ambulance|a vehicle for sick or hurt people|Call an ambulance!
-emergency|a sudden dangerous situation|In an emergency, call 112.
+emergency|a sudden dangerous situation|In an emergency, call 999.
 steal|take something without permission|Someone tried to steal my wallet.
 witness|a person who saw something happen|The witness talked to the police.
 #B28|hanging out|relative clauses · places to go with friends
@@ -617,8 +624,8 @@ supposed to|expected to because of a rule or duty|I'm supposed to do the housewo
 expected to|what people think you should do|Men are expected to help.
 raise|bring up children|They raised three children.
 single parent|a parent raising a child alone|She's a single parent.
-from my point of view|in my opinion|From my point of view, both should work.
-provide for|give the money and things needed|He provides for his family.
+from my point of view|the way I see a situation|From my point of view, both should work.
+provide for|give the money and things needed|He works hard to provide for his family.
 #C3|common activities|things in common · personality traits
 in common|shared by two or more people|We have a lot in common.
 both|the two together|We both like jazz.
@@ -632,7 +639,7 @@ terrified|extremely afraid|I'm terrified of heights.
 due to|because of|The flight was cancelled due to fog.
 consequently|as a result|He panicked; consequently, he fell.
 shocked|very surprised and upset|I was shocked by the news.
-overcome|succeed in dealing with a problem|She overcame her fear of flying.
+overcome|succeed in dealing with a problem|She wants to overcome her fear of flying.
 #C5|possibilities about our lives|modals for present and future
 might|possibly|I might change jobs next year.
 could|it is possible|It could rain later.
@@ -656,7 +663,7 @@ saving|keeping money for later|You can afford it by saving money.
 earn|get money for work|He earns a good salary.
 #C8|employment|job adverts, CVs and interviews
 advertisement|a notice that offers or sells something|I saw a job advertisement.
-CV|a document about your education and work|Attach your CV to the email.
+CV|a British English name for a document about your education and work|Attach your CV to the email.
 interview|a formal meeting for a job|I have a job interview.
 candidate|a person applying for a job|She's the best candidate.
 hire|give someone a job|They hired a new manager.
@@ -732,8 +739,8 @@ astronaut|a person who travels in space|The astronaut walked on the Moon.
 planet|a large body moving around a star|Mars is a red planet.
 exploration|travelling to discover new places|Space exploration is expensive.
 #C19|robots of the future|regrets with should have
-should have|used for regrets about the past|I should have studied harder.
-shouldn't have|used for regrets about the past|I shouldn't have said that.
+should have|used for regret about something you did not do|I should have studied harder.
+shouldn't have|used for regret about something you did|I shouldn't have said that.
 regret|feel sorry about something you did|I regret leaving early.
 robot|a machine that does tasks|Robots will do housework.
 automation|machines doing work people used to do|Automation may replace jobs.
@@ -760,7 +767,7 @@ tailor|a person who makes clothes|The tailor shortened my trousers.
 had|causative: someone did it for me|I had my hair cut.
 got|causative: arranged for it to be done|I got my suit cleaned.
 #C23|health issues|let / make causatives
-make|force someone to do something|The doctor made me stop smoking.
+make|force someone to do something|The doctor will make me stop smoking.
 let|allow someone to do something|My parents let me stay out late.
 lifestyle|the way you live|She has a healthy lifestyle.
 stress|worry and pressure|Stress is bad for your health.
@@ -786,11 +793,11 @@ traffic jam|a long line of stopped cars|We were stuck in a traffic jam.
 overtake|pass another vehicle|Don't overtake on bends.
 speed limit|the maximum legal speed|The speed limit is 50.
 fuel|petrol or diesel|Fuel prices have gone up.
-I'd sooner|I would prefer to|I'd sooner take the train.
+I'd sooner|I would rather; a stronger way to say I would prefer to|I'd sooner take the train.
 #C27|historical events|third conditional
 revolution|a big change in government|The French Revolution began in 1789.
 ancient|very old|We visited ancient ruins.
-civilization|a developed society|The Roman civilization was huge.
+civilisation|a developed society|The Roman civilisation was huge.
 treaty|an official agreement between countries|They signed a peace treaty.
 would have|for an unreal past result|We would have won.
 if I had known|starts an unreal past condition|If I had known, I would have come.
@@ -844,6 +851,22 @@ const daysAgo=n=>{const d=new Date();d.setDate(d.getDate()-n);return ymd(d);};
 const lsGet=k=>{try{return localStorage.getItem(k);}catch(e){return null;}};
 const lsSet=(k,v)=>{try{localStorage.setItem(k,v);}catch(e){}};
 const norm=s=>String(s).toLowerCase().replace(/[’']/g,"'").replace(/[^a-z0-9' -]/g,'').replace(/\s+/g,' ').trim();
+function wordForms(word){
+  const w=norm(word);const forms=new Set([w]);if(!w)return forms;
+  const parts=w.split(' ').filter(Boolean);const last=parts[parts.length-1];const head=parts.slice(0,-1);
+  const add=f=>forms.add(head.concat(f).join(' ').trim());
+  const base=last;const out=new Set([base]);
+  out.add(base+"'s");
+  if(base.endsWith('y')&&base.length>2&&!/[aeiou]y$/.test(base)){const stem=base.slice(0,-1);out.add(stem+'ies');out.add(stem+'ied');out.add(base+'ing');}
+  else if(base.endsWith('ie')){out.add(base+'s');out.add(base.slice(0,-2)+'ying');out.add(base+'d');}
+  else if(base.endsWith('e')&&base.length>2){out.add(base+'s');out.add(base+'d');out.add(base.slice(0,-1)+'ing');}
+  else if(/(?:s|x|z|ch|sh)$/.test(base)){out.add(base+'es');out.add(base+'ed');out.add(base+'ing');}
+  else{out.add(base+'s');out.add(base+'es');out.add(base+'ed');out.add(base+'ing');out.add(base+base.slice(-1)+'ed');out.add(base+base.slice(-1)+'ing');}
+  for(const f of out)add(f);
+  return forms;
+}
+function exampleHasWord(word,example){const t=norm(example);for(const f of wordForms(word))if(t.includes(f))return true;return false;}
+
 const fmtDate=t=>{if(!t)return'';const d=new Date(t);return isNaN(d)?String(t):d.toLocaleDateString(undefined,{day:'numeric',month:'short'});};
 const colorFor=id=>{let h=0;for(const c of String(id))h=(h*31+c.charCodeAt(0))%360;return 'hsl('+h+' 55% 45%)';};
 const initials=n=>(n||'?').split(/\s+/).map(x=>x[0]).join('').slice(0,2).toUpperCase();
@@ -1038,7 +1061,7 @@ function startGame(type,scope){
   const lvl=scope==='review'||scope==='level'?S.prog.level:BYID[scope].level;
   const pool=scope==='review'?ALLWORDS:levelWords(lvl);
   if(type==='spell') words=words.filter(w=>/^[a-z' -]+$/i.test(w.w)&&w.w.length<=22);
-  if(type==='gap') words=words.filter(w=>norm(w.e).includes(norm(w.w)));
+  if(type==='gap') words=words.filter(w=>exampleHasWord(w.w,w.e));
   if(type==='match') words=words.slice(0,6);
   if(!words.length){toast('This set has no words for that game. Try another one.');return;}
   S.game={type,scope,words,pool,i:0,score:0,xp:0,done:false,answered:false,flipped:false,start:Date.now(),sel:null,matched:[],tries:0};
@@ -1084,8 +1107,8 @@ function renderGame(){
   return '<section class="game">'+gameHead()+b+'</section>';
 }
 function gapSentence(w){
-  const n=norm(w.w);const words=w.e.split(' ');
-  for(let s=0;s<words.length;s++)for(let e=s+1;e<=words.length;e++){if(norm(words.slice(s,e).join(' '))===n){
+  const forms=wordForms(w.w);const words=w.e.split(' ');
+  for(let s=0;s<words.length;s++)for(let e=s+1;e<=words.length;e++){if(forms.has(norm(words.slice(s,e).join(' ')))){
     const tail=(words[e-1].match(/[.,!?;:]+$/)||[''])[0];
     return esc(words.slice(0,s).join(' '))+' <span style="display:inline-block;min-width:90px;border-bottom:3px solid var(--accent)">&nbsp;</span>'+esc(tail)+' '+esc(words.slice(e).join(' '));}}
   return esc(w.e.replace(new RegExp(w.w.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'),'i'),'_____'));
@@ -1097,7 +1120,7 @@ function afterGameRender(){
   if(g.type==='match') matchTimer=setInterval(()=>{const t=$('#timer');if(!t||!S.game||S.game.done){clearInterval(matchTimer);return;}t.textContent=Math.round((Date.now()-S.game.start)/1000)+'s';},1000);
   if(g.type==='spell'){const inp=$('#spell-in');if(inp)inp.focus();setTimeout(()=>speak(g.words[g.i].w),250);}
 }
-function next(){const g=S.game;g.i++;g.answered=false;g.flipped=false;if(g.i>=g.words.length)finish();else render();}
+function next(){const g=S.game;if(!g||g.done)return;g.i++;g.answered=false;g.flipped=false;if(g.i>=g.words.length)finish();else render();}
 function grade(w,ok){if(ok){setBox(w.key,box(w.key)+1);S.game.score++;S.game.xp+=10;}else setBox(w.key,0);}
 function finish(){
   const g=S.game;g.done=true;const tot=g.words.length;g.pct=Math.round(g.score/tot*100);
